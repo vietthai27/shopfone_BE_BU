@@ -56,6 +56,6 @@ public class ResetPassServiceImplement implements ResetPassService {
     @Override
     public String validateRequestCode(String requestCode) {
 
-        return null;
+        return "TEST";
     }
 }
